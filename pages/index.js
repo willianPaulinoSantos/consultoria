@@ -1,5 +1,5 @@
 function Home() {
-    return <h1>Te amo vidinha s2</h1>
+    return <h1>Teste Vercel</h1>
 }
 
 export default Home

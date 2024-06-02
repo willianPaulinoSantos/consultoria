@@ -1,5 +1,19 @@
+function MyButton(){
+    return (
+        <button>
+            Botão
+        </button>
+    ) 
+    
+}
+
 function Home() {
-    return <h1>Teste Vercel</h1>
+    return (
+    <div>
+        <h1>Teste Vercel</h1>
+        <MyButton />
+    </div>
+    )
 }
 
 export default Home

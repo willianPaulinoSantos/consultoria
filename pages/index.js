@@ -1,23 +1,24 @@
 import { models } from '../resources/models'
 function MyButton(){
+    function handleClick() {
+        alert('Te amo vidinha que clica')
+     }
+
     return (
-        <button>
-            Botão
+        <button onClick = {handleClick}>
+            Clique aqui vidinha
         </button>
     ) 
     
 }
 
 function Home() {
-    console.log('models: ')
-    console.log(models)
     const listModels = models.map(model => 
         <li key ={model.name}>
            Name: {model.name} . Category: {model.category} . Price: {model.price}
         </li>
     )
 
-    console.log(listModels)
     return (
     <div>
         <h1>Teste Vercel</h1>

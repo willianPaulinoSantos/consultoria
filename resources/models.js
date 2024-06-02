@@ -1,4 +1,4 @@
-export const models = [
+const models = [
     {
         name: 'brasileiro',
         category: 'personal',
@@ -10,3 +10,5 @@ export const models = [
         price: 200
     },
 ]
+
+export { models }
